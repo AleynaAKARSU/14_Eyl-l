@@ -1,0 +1,20 @@
+String Metodları:
+
+
+
+length=> String bir değerin uzunluğunu döndürür.
+
+indexof => Belirtilen string değerin index numarasını döndürür. Birinci karakterin index numaraıs 0 dan başlar.
+
+lastIndexOf => Belirtilen string değer birden fazla bulunuyorsa en sondakinin index numarasını verir. Birinci karakterin index numarası sıfırdır.
+search => Belirtilen stirng değerin index numarasını döndürüyor. Birinci karakterin index numarası 0 dan başlıyor eğer ilgili belirtilen string ifadeyi bulamazsa da -1 döndürüyor.
+toUpperCase => Verilen bir string değerin her bir karakterini büyük harflere dönüştürüyor.
+toLowerCase => Verilen bir string değerin her bir karakterini küçük harflere dönüştürüyor.
+slice => string içerisinden belirli bir bölümü çıkartmaya yarıyordu 
+
+slice(başlangıçIndexi,bitişIndexi) =>Başlangç index i ve bitiş index i arasındali metni getiriyor.
+slice(başlangıçIndexi) =>Başlangç index nden başlıyor ve kalan metni getiriyor.
+  
+  substring => slice() metodu benzer bu metodun farki ise negatif değerler almaz
+
+    substr => slice() metodu benzer bu metodun farki ikinci alacağı parametreçıkartılacak metnin uzunluğunu yani çıkartılacak metnin karakter sayısını belirtir.

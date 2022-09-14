@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demoLength"></p>
+    <p id="demoIndexOf"></p>
+    <p id="demoLastIndexof"></p>
+    <p id="demoSearch"></p>
+    <p id="demoToUpperCase"></p>
+    <p id="demoLowerCase"></p>
+    <p id="demoSlice"></p>
+    <p id="demoSliceBitisDeğersiz"></p>
+
+    <p id="demoSliceAdi"></p>
+    <p id="demoSliceNegatif"></p>
+    <p id="demoSubstring"></p>
+    <p id="demoSubstr"></p>
+
+
+    <script>
+        var adi="JavaScript String Metodlarını String öğreniyorum. String"
+var meyveler="Kavun, Karpuz, Kiraz, Erik"
+        document.getElementById('demoLength').innerHTML=adi.length
+        document.getElementById('demoIndexOf').innerHTML=adi.indexOf("String")
+        document.getElementById('demoLastIndexof').innerHTML=adi.lastIndexOf("String")
+        document.getElementById('demoSearch').innerHTML=adi.search("String")
+        document.getElementById('demoToUpperCase').innerHTML=adi.toUpperCase()
+        document.getElementById('demoLowerCase').innerHTML=adi.toLowerCase()
+        document.getElementById('demoSlice').innerHTML=meyveler.slice(15,21)
+        document.getElementById('demoSliceBitisDeğersiz').innerHTML=meyveler.slice(15)
+
+       document.getElementById('demoSliceAdi').innerHTML=adi.slice(17,45)
+       document.getElementById('demoSliceNegatif').innerHTML=meyveler.slice(-11,-6)
+
+       document.getElementById('demoSubstring').innerHTML=meyveler.substring(7,13)
+       document.getElementById('demoSubstr').innerHTML=meyveler.substr(7,17)
+
+    </script>
+</body>
+</html>
